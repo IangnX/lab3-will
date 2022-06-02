@@ -20,6 +20,7 @@ import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
 import { NgChartsModule } from 'ng2-charts';
+import { ChartBarComponent } from './chart-bar/chart-bar.component';
 
 
 
@@ -28,7 +29,8 @@ import { NgChartsModule } from 'ng2-charts';
     AppComponent,
     MyNavComponent,
     MyDashboardComponent,
-    MyTableComponent
+    MyTableComponent,
+    ChartBarComponent
   ],
   imports: [
     BrowserModule,
